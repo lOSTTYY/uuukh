@@ -1,0 +1,99 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Exit = Instance.new("TextButton")
+local CmdX = Instance.new("TextButton")
+local InfYield = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.500
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0.455454558, 0, 0.406374514, 0)
+Frame.Size = UDim2.new(0, 352, 0, 162)
+
+Exit.Name = "Exit"
+Exit.Parent = Frame
+Exit.BackgroundColor3 = Color3.fromRGB(165, 12, 12)
+Exit.BackgroundTransparency = 0.800
+Exit.Position = UDim2.new(0.860795438, 0, 0, 0)
+Exit.Size = UDim2.new(0, 49, 0, 43)
+Exit.Font = Enum.Font.SourceSans
+Exit.Text = "Exit"
+Exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exit.TextSize = 26.000
+
+CmdX.Name = "Cmd X"
+CmdX.Parent = Frame
+CmdX.BackgroundColor3 = Color3.fromRGB(24, 124, 255)
+CmdX.BackgroundTransparency = 0.800
+CmdX.Position = UDim2.new(0.531704545, 0, 0.611553788, 0)
+CmdX.Size = UDim2.new(0, 157, 0, 50)
+CmdX.Font = Enum.Font.SourceSans
+CmdX.Text = "Cmd X"
+CmdX.TextColor3 = Color3.fromRGB(0, 0, 0)
+CmdX.TextSize = 20.000
+
+InfYield.Name = "Inf Yield"
+InfYield.Parent = Frame
+InfYield.BackgroundColor3 = Color3.fromRGB(24, 124, 255)
+InfYield.BackgroundTransparency = 0.800
+InfYield.Position = UDim2.new(0.0243181884, 0, 0.611553788, 0)
+InfYield.Size = UDim2.new(0, 157, 0, 50)
+InfYield.Font = Enum.Font.SourceSans
+InfYield.Text = "Infinite Yield"
+InfYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfYield.TextSize = 20.000
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(11, 14, 176)
+TextLabel.BackgroundTransparency = 0.500
+TextLabel.Position = UDim2.new(0.215909094, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Admin's"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 30.000
+
+-- Scripts:
+
+local function VUCR_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.parent.MouseButton1Click:Connect(function()
+	
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.TextButton.Visible = true
+	
+	end)
+end
+coroutine.wrap(VUCR_fake_script)()
+local function YATIZLP_fake_script() -- CmdX.LocalScript 
+	local script = Instance.new('LocalScript', CmdX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end)
+	
+end
+coroutine.wrap(YATIZLP_fake_script)()
+local function XMLHIP_fake_script() -- InfYield.LocalScript 
+	local script = Instance.new('LocalScript', InfYield)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+	
+end
+coroutine.wrap(XMLHIP_fake_script)()
