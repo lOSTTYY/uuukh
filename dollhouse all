@@ -1,0 +1,100 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Dollhousepart = Instance.new("TextLabel")
+local Exit = Instance.new("TextButton")
+local GunzAdmin = Instance.new("TextButton")
+local PlayAll = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BackgroundTransparency = 0.500
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0.455454558, 0, 0.406374514, 0)
+Frame.Size = UDim2.new(0, 352, 0, 162)
+
+Dollhousepart.Name = "Dollhouse part"
+Dollhousepart.Parent = Frame
+Dollhousepart.BackgroundColor3 = Color3.fromRGB(30, 45, 255)
+Dollhousepart.BackgroundTransparency = 0.400
+Dollhousepart.Position = UDim2.new(0.15534088, 0, 0.0432098769, 0)
+Dollhousepart.Size = UDim2.new(0, 241, 0, 49)
+Dollhousepart.Font = Enum.Font.SourceSans
+Dollhousepart.Text = "Dollhouse"
+Dollhousepart.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dollhousepart.TextSize = 30.000
+
+Exit.Name = "Exit"
+Exit.Parent = Frame
+Exit.BackgroundColor3 = Color3.fromRGB(165, 12, 12)
+Exit.BackgroundTransparency = 0.800
+Exit.Position = UDim2.new(0.860795438, 0, 0, 0)
+Exit.Size = UDim2.new(0, 49, 0, 43)
+Exit.Font = Enum.Font.SourceSans
+Exit.Text = "Exit"
+Exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exit.TextSize = 26.000
+
+GunzAdmin.Name = "Gunz Admin"
+GunzAdmin.Parent = Frame
+GunzAdmin.BackgroundColor3 = Color3.fromRGB(24, 124, 255)
+GunzAdmin.BackgroundTransparency = 0.800
+GunzAdmin.Position = UDim2.new(0.531704545, 0, 0.611553788, 0)
+GunzAdmin.Size = UDim2.new(0, 157, 0, 50)
+GunzAdmin.Font = Enum.Font.SourceSans
+GunzAdmin.Text = "Gunz Admin"
+GunzAdmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+GunzAdmin.TextSize = 20.000
+
+PlayAll.Name = "Play All"
+PlayAll.Parent = Frame
+PlayAll.BackgroundColor3 = Color3.fromRGB(24, 124, 255)
+PlayAll.BackgroundTransparency = 0.800
+PlayAll.Position = UDim2.new(0.0243181884, 0, 0.611553788, 0)
+PlayAll.Size = UDim2.new(0, 157, 0, 50)
+PlayAll.Font = Enum.Font.SourceSans
+PlayAll.Text = "Play All Boomboxes"
+PlayAll.TextColor3 = Color3.fromRGB(0, 0, 0)
+PlayAll.TextSize = 20.000
+
+-- Scripts:
+
+local function WOFRG_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.parent.MouseButton1Click:Connect(function()
+	
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.TextButton.Visible = true
+	
+	end)
+end
+coroutine.wrap(WOFRG_fake_script)()
+local function FGMTT_fake_script() -- GunzAdmin.LocalScript 
+	local script = Instance.new('LocalScript', GunzAdmin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet(('loadstring(game:HttpGet("https://raw.githubusercontent.com/okwbu/dwasdwa/main/GunAdmin", true))()
+	end)
+	
+end
+coroutine.wrap(FGMTT_fake_script)()
+local function JWUNME_fake_script() -- PlayAll.LocalScript 
+	local script = Instance.new('LocalScript', PlayAll)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet(('loadstring(game:HttpGet("https://raw.githubusercontent.com/lOSTTYY/uuukh/main/play%20all", true))()
+	end)
+	
+end
+coroutine.wrap(JWUNME_fake_script)()
