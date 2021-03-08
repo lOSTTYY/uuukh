@@ -1,0 +1,118 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local exit = Instance.new("TextButton")
+local jointheservers = Instance.new("TextLabel")
+local infyield = Instance.new("TextLabel")
+local gunzadmin = Instance.new("TextLabel")
+local myserver = Instance.new("TextLabel")
+local cmdx = Instance.new("TextLabel")
+local boomboxplayall = Instance.new("TextLabel")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(10, 9, 25)
+Frame.BackgroundTransparency = 0.500
+Frame.BorderSizePixel = 4
+Frame.Position = UDim2.new(0.516363621, 0, 0.22709164, 0)
+Frame.Size = UDim2.new(0, 313, 0, 306)
+
+exit.Name = "exit"
+exit.Parent = Frame
+exit.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+exit.BackgroundTransparency = 0.800
+exit.Position = UDim2.new(0.849041522, 0, -0.00244246772, 0)
+exit.Size = UDim2.new(0, 47, 0, 50)
+exit.Font = Enum.Font.SourceSans
+exit.Text = "Exit"
+exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+exit.TextSize = 26.000
+
+jointheservers.Name = "join the servers"
+jointheservers.Parent = Frame
+jointheservers.BackgroundColor3 = Color3.fromRGB(10, 9, 25)
+jointheservers.BackgroundTransparency = 0.800
+jointheservers.Position = UDim2.new(0.000194610329, 0, -0.00244246772, 0)
+jointheservers.Size = UDim2.new(0, 266, 0, 50)
+jointheservers.Font = Enum.Font.SourceSans
+jointheservers.Text = "Support the script owners by joining there discord servers."
+jointheservers.TextColor3 = Color3.fromRGB(0, 0, 0)
+jointheservers.TextSize = 13.000
+
+infyield.Name = "inf yield"
+infyield.Parent = Frame
+infyield.BackgroundColor3 = Color3.fromRGB(10, 9, 25)
+infyield.BackgroundTransparency = 0.800
+infyield.Position = UDim2.new(0.00198662281, 0, 0.160239428, 0)
+infyield.Size = UDim2.new(0, 312, 0, 50)
+infyield.Font = Enum.Font.SourceSans
+infyield.Text = "Inf Yield https://discord.com/invite/dk546bAW"
+infyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infyield.TextSize = 18.000
+
+gunzadmin.Name = "gunz admin"
+gunzadmin.Parent = Frame
+gunzadmin.BackgroundColor3 = Color3.fromRGB(10, 9, 25)
+gunzadmin.BackgroundTransparency = 0.800
+gunzadmin.Position = UDim2.new(0.00638977624, 0, 0.321678877, 0)
+gunzadmin.Size = UDim2.new(0, 311, 0, 50)
+gunzadmin.Font = Enum.Font.SourceSans
+gunzadmin.Text = "Gunz Admin https://discord.gg/DaYW2sSqHw"
+gunzadmin.TextColor3 = Color3.fromRGB(0, 0, 0)
+gunzadmin.TextSize = 18.000
+
+myserver.Name = "my server"
+myserver.Parent = Frame
+myserver.BackgroundColor3 = Color3.fromRGB(10, 9, 25)
+myserver.BackgroundTransparency = 0.800
+myserver.Position = UDim2.new(0.00638977624, 0, 0.483266413, 0)
+myserver.Size = UDim2.new(0, 311, 0, 50)
+myserver.Font = Enum.Font.SourceSans
+myserver.Text = "Losttyy's Hub https://discord.gg/69W7ztAQWA"
+myserver.TextColor3 = Color3.fromRGB(0, 0, 0)
+myserver.TextSize = 18.000
+
+cmdx.Name = "cmd x"
+cmdx.Parent = Frame
+cmdx.BackgroundColor3 = Color3.fromRGB(10, 9, 25)
+cmdx.BackgroundTransparency = 0.800
+cmdx.Position = UDim2.new(0.00638977624, 0, 0.64485395, 0)
+cmdx.Size = UDim2.new(0, 310, 0, 50)
+cmdx.Font = Enum.Font.SourceSans
+cmdx.Text = "Cmd x https://discord.gg/exe"
+cmdx.TextColor3 = Color3.fromRGB(0, 0, 0)
+cmdx.TextSize = 18.000
+
+boomboxplayall.Name = "boombox play all"
+boomboxplayall.Parent = Frame
+boomboxplayall.BackgroundColor3 = Color3.fromRGB(10, 9, 25)
+boomboxplayall.BackgroundTransparency = 0.800
+boomboxplayall.Position = UDim2.new(0.00699967146, 0, 0.807358801, 0)
+boomboxplayall.Size = UDim2.new(0, 310, 0, 50)
+boomboxplayall.Font = Enum.Font.SourceSans
+boomboxplayall.Text = "Play all Boomboxes https://discord.gg/cRMbSFv"
+boomboxplayall.TextColor3 = Color3.fromRGB(0, 0, 0)
+boomboxplayall.TextSize = 18.000
+boomboxplayall.TextWrapped = true
+
+-- Scripts:
+
+local function AEIRWF_fake_script() -- exit.exit 
+	local script = Instance.new('LocalScript', exit)
+
+	script.parent.MouseButton1Click:Connect(function()
+	
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.TextButton.Visible = true
+	
+	end)
+	
+end
+coroutine.wrap(AEIRWF_fake_script)()
