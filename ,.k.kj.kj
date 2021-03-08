@@ -1,0 +1,124 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local gunhub = Instance.new("TextButton")
+local infyield = Instance.new("TextButton")
+local boomboxplayall = Instance.new("TextButton")
+local whomadethis = Instance.new("TextLabel")
+local exit = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(53, 53, 53)
+Frame.BorderSizePixel = 2
+Frame.Position = UDim2.new(0.209429592, 0, 0.196403146, 0)
+Frame.Size = UDim2.new(0, 208, 0, 305)
+
+gunhub.Name = "gun hub"
+gunhub.Parent = Frame
+gunhub.BackgroundColor3 = Color3.fromRGB(46, 102, 255)
+gunhub.BorderColor3 = Color3.fromRGB(47, 51, 53)
+gunhub.BorderSizePixel = 3
+gunhub.Position = UDim2.new(0.0674303472, 0, 0.382662177, 0)
+gunhub.Size = UDim2.new(0, 182, 0, 49)
+gunhub.Font = Enum.Font.SourceSans
+gunhub.Text = "Gun Hub Admin"
+gunhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+gunhub.TextSize = 20.000
+
+infyield.Name = "inf yield"
+infyield.Parent = Frame
+infyield.BackgroundColor3 = Color3.fromRGB(46, 102, 255)
+infyield.BorderColor3 = Color3.fromRGB(47, 51, 53)
+infyield.BorderSizePixel = 3
+infyield.Position = UDim2.new(0.0674303472, 0, 0.567013979, 0)
+infyield.Size = UDim2.new(0, 182, 0, 50)
+infyield.Font = Enum.Font.SourceSans
+infyield.Text = "Infinite Yield"
+infyield.TextColor3 = Color3.fromRGB(0, 0, 0)
+infyield.TextSize = 20.000
+
+boomboxplayall.Name = "boombox play all"
+boomboxplayall.Parent = Frame
+boomboxplayall.BackgroundColor3 = Color3.fromRGB(46, 102, 255)
+boomboxplayall.BorderColor3 = Color3.fromRGB(47, 51, 53)
+boomboxplayall.BorderSizePixel = 3
+boomboxplayall.Position = UDim2.new(0.0674303472, 0, 0.756711066, 0)
+boomboxplayall.Size = UDim2.new(0, 182, 0, 50)
+boomboxplayall.Font = Enum.Font.SourceSans
+boomboxplayall.Text = "Boombox Play All"
+boomboxplayall.TextColor3 = Color3.fromRGB(0, 0, 0)
+boomboxplayall.TextSize = 20.000
+
+whomadethis.Name = "who made this"
+whomadethis.Parent = Frame
+whomadethis.BackgroundColor3 = Color3.fromRGB(83, 83, 255)
+whomadethis.BorderSizePixel = 3
+whomadethis.Position = UDim2.new(0.0674303472, 0, 0.160986677, 0)
+whomadethis.Size = UDim2.new(0, 181, 0, 51)
+whomadethis.Font = Enum.Font.SourceSans
+whomadethis.Text = "Losttyys Dollhouse HUB"
+whomadethis.TextColor3 = Color3.fromRGB(0, 0, 0)
+whomadethis.TextScaled = true
+whomadethis.TextSize = 10.000
+whomadethis.TextWrapped = true
+
+exit.Name = "exit"
+exit.Parent = Frame
+exit.BackgroundColor3 = Color3.fromRGB(172, 33, 23)
+exit.BorderColor3 = Color3.fromRGB(53, 6, 3)
+exit.Position = UDim2.new(0.759615362, 0, 0, 0)
+exit.Size = UDim2.new(0, 50, 0, 41)
+exit.Font = Enum.Font.SourceSans
+exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+exit.TextSize = 20.000
+
+-- Scripts:
+
+local function JYAPG_fake_script() -- gunhub.LocalScript 
+	local script = Instance.new('LocalScript', gunhub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/okwbu/dwasdwa/main/GunAdmin", true))()
+	end)
+end
+coroutine.wrap(JYAPG_fake_script)()
+local function LDXZCV_fake_script() -- infyield.LocalScript 
+	local script = Instance.new('LocalScript', infyield)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(LDXZCV_fake_script)()
+local function MUPTO_fake_script() -- boomboxplayall.LocalScript 
+	local script = Instance.new('LocalScript', boomboxplayall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+	
+		loadstring(game:HttpGet(('https://pastebin.com/raw/yn2fT3TA'),true))()
+	end)
+end
+coroutine.wrap(MUPTO_fake_script)()
+local function PMBILC_fake_script() -- exit.LocalScript 
+	local script = Instance.new('LocalScript', exit)
+
+	script.parent.MouseButton1Click:Connect(function()
+	
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.TextButton.Visible = true
+	
+	end)
+	
+end
+coroutine.wrap(PMBILC_fake_script)()
