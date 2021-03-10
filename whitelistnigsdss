@@ -39,7 +39,6 @@ MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 MainFrame.BorderSizePixel = 3
 MainFrame.Position = UDim2.new(0.041886162, 0, 0.14940241, 0)
 MainFrame.Size = UDim2.new(0, 276, 0, 333)
-MainFrame.Visible = false
 
 ScrollingFrame.Parent = MainFrame
 ScrollingFrame.Active = true
@@ -283,7 +282,7 @@ ComingSoon_2.TextSize = 10.000
 
 -- Scripts:
 
-local function HXUAIYY_fake_script() -- doolhouse.LocalScript 
+local function YWJUQ_fake_script() -- doolhouse.LocalScript 
 	local script = Instance.new('LocalScript', doolhouse)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -292,8 +291,8 @@ local function HXUAIYY_fake_script() -- doolhouse.LocalScript
 	end)
 	
 end
-coroutine.wrap(HXUAIYY_fake_script)()
-local function HHUBX_fake_script() -- GunzAdmin.LocalScript 
+coroutine.wrap(YWJUQ_fake_script)()
+local function XFIDCO_fake_script() -- GunzAdmin.LocalScript 
 	local script = Instance.new('LocalScript', GunzAdmin)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -301,8 +300,8 @@ local function HHUBX_fake_script() -- GunzAdmin.LocalScript
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/okwbu/dwasdwa/main/GunAdmin'),true))()
 	end)
 end
-coroutine.wrap(HHUBX_fake_script)()
-local function BAYAS_fake_script() -- PlayAllBoomboxes.LocalScript 
+coroutine.wrap(XFIDCO_fake_script)()
+local function EQYUME_fake_script() -- PlayAllBoomboxes.LocalScript 
 	local script = Instance.new('LocalScript', PlayAllBoomboxes)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -311,8 +310,8 @@ local function BAYAS_fake_script() -- PlayAllBoomboxes.LocalScript
 	end)
 	
 end
-coroutine.wrap(BAYAS_fake_script)()
-local function JGKL_fake_script() -- Cmdx.LocalScript 
+coroutine.wrap(EQYUME_fake_script)()
+local function UOPPPXP_fake_script() -- Cmdx.LocalScript 
 	local script = Instance.new('LocalScript', Cmdx)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -321,8 +320,8 @@ local function JGKL_fake_script() -- Cmdx.LocalScript
 	end)
 	
 end
-coroutine.wrap(JGKL_fake_script)()
-local function WUXTEFR_fake_script() -- InfiniteYield.LocalScript 
+coroutine.wrap(UOPPPXP_fake_script)()
+local function FKEMPPB_fake_script() -- InfiniteYield.LocalScript 
 	local script = Instance.new('LocalScript', InfiniteYield)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -331,8 +330,8 @@ local function WUXTEFR_fake_script() -- InfiniteYield.LocalScript
 	end)
 	
 end
-coroutine.wrap(WUXTEFR_fake_script)()
-local function NZTY_fake_script() -- MainFrame.open and close 
+coroutine.wrap(FKEMPPB_fake_script)()
+local function NMSXIQ_fake_script() -- MainFrame.open and close 
 	local script = Instance.new('LocalScript', MainFrame)
 
 	local mouse = game.Players.LocalPlayer:GetMouse()
@@ -345,4 +344,4 @@ local function NZTY_fake_script() -- MainFrame.open and close
 	end)
 	
 end
-coroutine.wrap(NZTY_fake_script)()
+coroutine.wrap(NMSXIQ_fake_script)()
