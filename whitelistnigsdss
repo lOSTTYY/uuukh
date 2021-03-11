@@ -4,344 +4,129 @@
 -- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
-local MainFrame = Instance.new("Frame")
-local ScrollingFrame = Instance.new("ScrollingFrame")
-local Credit = Instance.new("TextButton")
-local doolhouse = Instance.new("TextButton")
-local GunzAdmin = Instance.new("TextButton")
-local PlayAllBoomboxes = Instance.new("TextButton")
-local RayCodex = Instance.new("TextButton")
-local Cmdx = Instance.new("TextButton")
-local InfiniteYield = Instance.new("TextButton")
-local ComingSoon5 = Instance.new("TextButton")
-local ComingSoon4 = Instance.new("TextButton")
-local ComingSoon3 = Instance.new("TextButton")
-local ComingSoon2 = Instance.new("TextButton")
-local ComingSoon = Instance.new("TextButton")
-local LosttyysShit = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local Lostty = Instance.new("TextLabel")
+local getkey = Instance.new("TextButton")
+local sumbit = Instance.new("TextButton")
 local Hub = Instance.new("TextLabel")
-local ComingSoon1 = Instance.new("TextButton")
-local ComingSoon3_2 = Instance.new("TextButton")
-local ComingSoon4_2 = Instance.new("TextButton")
-local ComingSoon5_2 = Instance.new("TextButton")
-local ComingSoon6 = Instance.new("TextButton")
-local ComingSoon_2 = Instance.new("TextButton")
+local niggr = Instance.new("TextBox")
+local Framex2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
 
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
-MainFrame.Name = "MainFrame"
-MainFrame.Parent = ScreenGui
-MainFrame.BackgroundColor3 = Color3.fromRGB(255, 123, 57)
-MainFrame.BackgroundTransparency = 0.500
-MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-MainFrame.BorderSizePixel = 3
-MainFrame.Position = UDim2.new(0.041886162, 0, 0.14940241, 0)
-MainFrame.Size = UDim2.new(0, 276, 0, 333)
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 230, 103)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0.307962507, 0, 0.35059762, 0)
+Frame.Size = UDim2.new(0, 327, 0, 150)
+Frame.Style = Enum.FrameStyle.RobloxRound
 
-ScrollingFrame.Parent = MainFrame
-ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-ScrollingFrame.BackgroundTransparency = 0.600
-ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ScrollingFrame.BorderSizePixel = 3
-ScrollingFrame.Position = UDim2.new(-0.00180122443, 0, -0.000837492174, 0)
-ScrollingFrame.Size = UDim2.new(0, 221, 0, 333)
+Lostty.Name = "Lostty"
+Lostty.Parent = Frame
+Lostty.BackgroundColor3 = Color3.fromRGB(255, 96, 48)
+Lostty.BackgroundTransparency = 0.450
+Lostty.BorderSizePixel = 0
+Lostty.Position = UDim2.new(0.157356098, 0, -0.00479095429, 0)
+Lostty.Size = UDim2.new(0, 113, 0, 36)
+Lostty.Font = Enum.Font.SourceSans
+Lostty.Text = "Losttyy's Shit"
+Lostty.TextColor3 = Color3.fromRGB(0, 0, 0)
+Lostty.TextSize = 23.000
 
-Credit.Name = "Credit"
-Credit.Parent = ScrollingFrame
-Credit.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-Credit.BackgroundTransparency = 0.800
-Credit.BorderSizePixel = 2
-Credit.Position = UDim2.new(-0.00904977415, 0, 0.891891897, 0)
-Credit.Size = UDim2.new(0, 210, 0, 50)
-Credit.Font = Enum.Font.SourceSans
-Credit.Text = "Credit"
-Credit.TextColor3 = Color3.fromRGB(0, 0, 0)
-Credit.TextSize = 20.000
+getkey.Name = "getkey"
+getkey.Parent = Frame
+getkey.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+getkey.BorderSizePixel = 2
+getkey.Position = UDim2.new(0.00306169502, 0, 0.719070435, 0)
+getkey.Size = UDim2.new(0, 149, 0, 36)
+getkey.Font = Enum.Font.SourceSans
+getkey.Text = "Get Key"
+getkey.TextColor3 = Color3.fromRGB(0, 0, 0)
+getkey.TextSize = 25.000
 
-doolhouse.Name = "doolhouse"
-doolhouse.Parent = ScrollingFrame
-doolhouse.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-doolhouse.BackgroundTransparency = 0.800
-doolhouse.BorderSizePixel = 2
-doolhouse.Position = UDim2.new(-0.000101909376, 0, 0.0750750303, 0)
-doolhouse.Size = UDim2.new(0, 210, 0, 50)
-doolhouse.Font = Enum.Font.SourceSans
-doolhouse.Text = "Riptxde"
-doolhouse.TextColor3 = Color3.fromRGB(0, 0, 0)
-doolhouse.TextSize = 20.000
-
-GunzAdmin.Name = "Gunz Admin"
-GunzAdmin.Parent = ScrollingFrame
-GunzAdmin.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-GunzAdmin.BackgroundTransparency = 0.800
-GunzAdmin.Position = UDim2.new(-0.00452488707, 0, 0.150150061, 0)
-GunzAdmin.Size = UDim2.new(0, 209, 0, 49)
-GunzAdmin.Font = Enum.Font.SourceSans
-GunzAdmin.Text = "Gunz Admin"
-GunzAdmin.TextColor3 = Color3.fromRGB(0, 0, 0)
-GunzAdmin.TextSize = 20.000
-
-PlayAllBoomboxes.Name = "Play All Boomboxes"
-PlayAllBoomboxes.Parent = ScrollingFrame
-PlayAllBoomboxes.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-PlayAllBoomboxes.BackgroundTransparency = 0.800
-PlayAllBoomboxes.Position = UDim2.new(-0.00452488754, 0, 0.222222179, 0)
-PlayAllBoomboxes.Size = UDim2.new(0, 208, 0, 50)
-PlayAllBoomboxes.Font = Enum.Font.SourceSans
-PlayAllBoomboxes.Text = "Play All Boomboxes"
-PlayAllBoomboxes.TextColor3 = Color3.fromRGB(0, 0, 0)
-PlayAllBoomboxes.TextSize = 20.000
-
-RayCodex.Name = "RayCodex"
-RayCodex.Parent = ScrollingFrame
-RayCodex.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-RayCodex.BackgroundTransparency = 0.800
-RayCodex.Position = UDim2.new(-0.00904977322, 0, 0.295795798, 0)
-RayCodex.Size = UDim2.new(0, 209, 0, 50)
-RayCodex.Font = Enum.Font.SourceSans
-RayCodex.Text = "Ray Codex"
-RayCodex.TextColor3 = Color3.fromRGB(0, 0, 0)
-RayCodex.TextSize = 20.000
-RayCodex.TextWrapped = true
-
-Cmdx.Name = "Cmd x"
-Cmdx.Parent = ScrollingFrame
-Cmdx.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-Cmdx.BackgroundTransparency = 0.800
-Cmdx.Position = UDim2.new(0, 0, 0.444797307, 0)
-Cmdx.Size = UDim2.new(0, 208, 0, 50)
-Cmdx.Font = Enum.Font.SourceSans
-Cmdx.Text = "Cmd X"
-Cmdx.TextColor3 = Color3.fromRGB(0, 0, 0)
-Cmdx.TextSize = 20.000
-
-InfiniteYield.Name = "Infinite Yield"
-InfiniteYield.Parent = ScrollingFrame
-InfiniteYield.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-InfiniteYield.BackgroundTransparency = 0.800
-InfiniteYield.Position = UDim2.new(-4.65661287e-10, 0, 0.370206267, 0)
-InfiniteYield.Size = UDim2.new(0, 209, 0, 50)
-InfiniteYield.Font = Enum.Font.SourceSans
-InfiniteYield.Text = "Infinite Yield"
-InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
-InfiniteYield.TextSize = 20.000
-
-ComingSoon5.Name = "Coming Soon 5"
-ComingSoon5.Parent = ScrollingFrame
-ComingSoon5.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-ComingSoon5.BackgroundTransparency = 0.800
-ComingSoon5.Position = UDim2.new(-0.00452488661, 0, 0.51749146, 0)
-ComingSoon5.Size = UDim2.new(0, 208, 0, 50)
-ComingSoon5.Font = Enum.Font.SourceSans
-ComingSoon5.Text = "Coming Soon 5"
-ComingSoon5.TextColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon5.TextSize = 20.000
-
-ComingSoon4.Name = "Coming Soon 4"
-ComingSoon4.Parent = ScrollingFrame
-ComingSoon4.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-ComingSoon4.BackgroundTransparency = 0.800
-ComingSoon4.Position = UDim2.new(-0.0111906305, 0, 0.593589485, 0)
-ComingSoon4.Size = UDim2.new(0, 210, 0, 50)
-ComingSoon4.Font = Enum.Font.SourceSans
-ComingSoon4.Text = "Coming Soon 4"
-ComingSoon4.TextColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon4.TextSize = 20.000
-
-ComingSoon3.Name = "Coming Soon 3"
-ComingSoon3.Parent = ScrollingFrame
-ComingSoon3.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-ComingSoon3.BackgroundTransparency = 0.800
-ComingSoon3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon3.Position = UDim2.new(-0.00160969887, 0, 0.665667772, 0)
-ComingSoon3.Size = UDim2.new(0, 209, 0, 50)
-ComingSoon3.Font = Enum.Font.SourceSans
-ComingSoon3.Text = "Coming Soon 3"
-ComingSoon3.TextColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon3.TextSize = 20.000
-
-ComingSoon2.Name = "Coming Soon 2"
-ComingSoon2.Parent = ScrollingFrame
-ComingSoon2.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-ComingSoon2.BackgroundTransparency = 0.800
-ComingSoon2.Position = UDim2.new(0, 0, 0.741741776, 0)
-ComingSoon2.Size = UDim2.new(0, 211, 0, 50)
-ComingSoon2.Font = Enum.Font.SourceSans
-ComingSoon2.Text = "Coming Soon 2"
-ComingSoon2.TextColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon2.TextSize = 20.000
-
-ComingSoon.Name = "Coming Soon "
-ComingSoon.Parent = ScrollingFrame
-ComingSoon.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-ComingSoon.BackgroundTransparency = 0.800
-ComingSoon.Position = UDim2.new(0, 0, 0.816817045, 0)
-ComingSoon.Size = UDim2.new(0, 207, 0, 50)
-ComingSoon.Font = Enum.Font.SourceSans
-ComingSoon.Text = "Coming Soon"
-ComingSoon.TextColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon.TextSize = 20.000
-
-LosttyysShit.Name = "Losttyy's Shit"
-LosttyysShit.Parent = ScrollingFrame
-LosttyysShit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-LosttyysShit.BackgroundTransparency = 0.800
-LosttyysShit.BorderSizePixel = 0
-LosttyysShit.Position = UDim2.new(0.002249463, 0, 0, 0)
-LosttyysShit.Size = UDim2.new(0, 114, 0, 50)
-LosttyysShit.Font = Enum.Font.SourceSans
-LosttyysShit.Text = "Losttyy's Shit"
-LosttyysShit.TextColor3 = Color3.fromRGB(255, 96, 48)
-LosttyysShit.TextSize = 22.000
-LosttyysShit.TextStrokeTransparency = 0.500
-LosttyysShit.TextWrapped = true
+sumbit.Name = "sumbit"
+sumbit.Parent = Frame
+sumbit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+sumbit.BorderSizePixel = 2
+sumbit.Position = UDim2.new(0.521145284, 0, 0.719070435, 0)
+sumbit.Size = UDim2.new(0, 150, 0, 36)
+sumbit.Font = Enum.Font.SourceSans
+sumbit.Text = "Submit Key"
+sumbit.TextColor3 = Color3.fromRGB(0, 0, 0)
+sumbit.TextSize = 25.000
 
 Hub.Name = "Hub"
-Hub.Parent = ScrollingFrame
-Hub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Hub.BackgroundTransparency = 0.800
+Hub.Parent = Frame
+Hub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Hub.BackgroundTransparency = 0.700
 Hub.BorderSizePixel = 0
-Hub.Position = UDim2.new(0.52036202, 0, 0, 0)
-Hub.Size = UDim2.new(0, 92, 0, 50)
+Hub.Position = UDim2.new(0.519258201, 0, -0.00879151653, 0)
+Hub.Size = UDim2.new(0, 95, 0, 36)
 Hub.Font = Enum.Font.SourceSans
 Hub.Text = "Hub"
 Hub.TextColor3 = Color3.fromRGB(0, 0, 0)
-Hub.TextScaled = true
-Hub.TextSize = 14.000
-Hub.TextStrokeTransparency = 0.500
-Hub.TextWrapped = true
+Hub.TextSize = 35.000
 
-ComingSoon1.Name = "Coming Soon 1"
-ComingSoon1.Parent = MainFrame
-ComingSoon1.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-ComingSoon1.BackgroundTransparency = 0.800
-ComingSoon1.Position = UDim2.new(0.802688599, 0, 0.164417446, 0)
-ComingSoon1.Size = UDim2.new(0, 55, 0, 55)
-ComingSoon1.Font = Enum.Font.SourceSans
-ComingSoon1.Text = "Coming Soon 2"
-ComingSoon1.TextColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon1.TextSize = 9.000
+niggr.Name = "niggr"
+niggr.Parent = Frame
+niggr.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+niggr.BorderSizePixel = 3
+niggr.Position = UDim2.new(0.178513467, 0, 0.352272332, 0)
+niggr.Size = UDim2.new(0, 200, 0, 39)
+niggr.Font = Enum.Font.SourceSans
+niggr.Text = ""
+niggr.TextColor3 = Color3.fromRGB(0, 0, 0)
+niggr.TextSize = 14.000
 
-ComingSoon3_2.Name = "Coming Soon 3"
-ComingSoon3_2.Parent = MainFrame
-ComingSoon3_2.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-ComingSoon3_2.BackgroundTransparency = 0.800
-ComingSoon3_2.Position = UDim2.new(0.802688599, 0, 0.336091101, 0)
-ComingSoon3_2.Size = UDim2.new(0, 54, 0, 56)
-ComingSoon3_2.Font = Enum.Font.SourceSans
-ComingSoon3_2.Text = "Coming Soon 3"
-ComingSoon3_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon3_2.TextSize = 9.000
+Framex2.Name = "Framex2"
+Framex2.Parent = ScreenGui
+Framex2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Framex2.Position = UDim2.new(0.189695552, 0, 0.35059762, 0)
+Framex2.Size = UDim2.new(0, 100, 0, 150)
+Framex2.Visible = false
+Framex2.Style = Enum.FrameStyle.RobloxRound
 
-ComingSoon4_2.Name = "Coming Soon 4"
-ComingSoon4_2.Parent = MainFrame
-ComingSoon4_2.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-ComingSoon4_2.BackgroundTransparency = 0.800
-ComingSoon4_2.Position = UDim2.new(0.802688599, 0, 0.504253209, 0)
-ComingSoon4_2.Size = UDim2.new(0, 54, 0, 55)
-ComingSoon4_2.Font = Enum.Font.SourceSans
-ComingSoon4_2.Text = "Coming Soon 4"
-ComingSoon4_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon4_2.TextSize = 9.000
-
-ComingSoon5_2.Name = "Coming Soon 5"
-ComingSoon5_2.Parent = MainFrame
-ComingSoon5_2.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-ComingSoon5_2.BackgroundTransparency = 0.800
-ComingSoon5_2.Position = UDim2.new(0.802688599, 0, 0.666421413, 0)
-ComingSoon5_2.Size = UDim2.new(0, 55, 0, 55)
-ComingSoon5_2.Font = Enum.Font.SourceSans
-ComingSoon5_2.Text = "Coming Soon 5"
-ComingSoon5_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon5_2.TextSize = 9.000
-
-ComingSoon6.Name = "Coming Soon 6"
-ComingSoon6.Parent = MainFrame
-ComingSoon6.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-ComingSoon6.BackgroundTransparency = 0.800
-ComingSoon6.Position = UDim2.new(0.802688599, 0, 0.832585573, 0)
-ComingSoon6.Size = UDim2.new(0, 55, 0, 55)
-ComingSoon6.Font = Enum.Font.SourceSans
-ComingSoon6.Text = "Coming Soon 6"
-ComingSoon6.TextColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon6.TextSize = 9.000
-
-ComingSoon_2.Name = "Coming Soon "
-ComingSoon_2.Parent = MainFrame
-ComingSoon_2.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
-ComingSoon_2.BackgroundTransparency = 0.800
-ComingSoon_2.Position = UDim2.new(0.802688658, 0, -0.00375072844, 0)
-ComingSoon_2.Size = UDim2.new(0, 55, 0, 56)
-ComingSoon_2.Font = Enum.Font.SourceSans
-ComingSoon_2.Text = "Coming Soon"
-ComingSoon_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-ComingSoon_2.TextSize = 10.000
+TextLabel.Parent = Framex2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(-0.00904830545, 0, 0, 0)
+TextLabel.Size = UDim2.new(0, 88, 0, 132)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Press \"F9\" to find the discord server invite"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 40.000
+TextLabel.TextWrapped = true
 
 -- Scripts:
 
-local function YWJUQ_fake_script() -- doolhouse.LocalScript 
-	local script = Instance.new('LocalScript', doolhouse)
+local function CDSYCWB_fake_script() -- getkey.LocalScript 
+	local script = Instance.new('LocalScript', getkey)
 
 	script.Parent.MouseButton1Click:Connect(function()
-	
-		loadstring(game:HttpGetAsync('https://riptxde.dev/u/BoomboxHubV2.lua'))()
+		Framex2.Visible = true
+		wait (0.5)
+		print("discord.gg/nigger to get your key")
+		wait (5)
+		Framex2.Visible = false
 	end)
-	
 end
-coroutine.wrap(YWJUQ_fake_script)()
-local function XFIDCO_fake_script() -- GunzAdmin.LocalScript 
-	local script = Instance.new('LocalScript', GunzAdmin)
+coroutine.wrap(CDSYCWB_fake_script)()
+local function WKVT_fake_script() -- sumbit.LocalScript 
+	local script = Instance.new('LocalScript', sumbit)
 
 	script.Parent.MouseButton1Click:Connect(function()
+		if niggr.Text == "niggr" then
 	
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/okwbu/dwasdwa/main/GunAdmin'),true))()
-	end)
-end
-coroutine.wrap(XFIDCO_fake_script)()
-local function EQYUME_fake_script() -- PlayAllBoomboxes.LocalScript 
-	local script = Instance.new('LocalScript', PlayAllBoomboxes)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/lOSTTYY/uuukh/main/play%20all'),true))()
+			loadstring(game:HttpGet(('https://raw.githubusercontent.com/lOSTTYY/uuukh/main/LosttyysShittyHub'),true))()
+			wait (0.1)
+			Frame.Visible = false
+		end
 	end)
 	
-end
-coroutine.wrap(EQYUME_fake_script)()
-local function UOPPPXP_fake_script() -- Cmdx.LocalScript 
-	local script = Instance.new('LocalScript', Cmdx)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
-	end)
 	
 end
-coroutine.wrap(UOPPPXP_fake_script)()
-local function FKEMPPB_fake_script() -- InfiniteYield.LocalScript 
-	local script = Instance.new('LocalScript', InfiniteYield)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-	end)
-	
-end
-coroutine.wrap(FKEMPPB_fake_script)()
-local function NMSXIQ_fake_script() -- MainFrame.open and close 
-	local script = Instance.new('LocalScript', MainFrame)
-
-	local mouse = game.Players.LocalPlayer:GetMouse()
-	local gui = game.Players.LocalPlayer.PlayerGui.ScreenGui.Frame -- replace Frame to the name of the frame your gui is in
-	
-	mouse.KeyDown:connect(function(key)
-	    if key ==  "q" then
-	        gui.Visible = not gui.Visible
-	    end
-	end)
-	
-end
-coroutine.wrap(NMSXIQ_fake_script)()
+coroutine.wrap(WKVT_fake_script)()
