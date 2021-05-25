@@ -58,7 +58,7 @@ local dawdwad = Instance.new("TextButton")
 
 --Properties:
 
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.Parent = game:GetService("CoreGui") 
 
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = ScreenGui
