@@ -720,7 +720,7 @@ local function EYWPT_fake_script() -- f9credits.LocalScript
 	f9credits.MouseButton1Down:connect(function()
 		print("DM Losttyy#4001 if you need anything such as help or if you want to suggest something for me to add...")
 		print("Biggest thank's to isak#9010 for helping me with scripting and making this hub")
-		print("To close the GUI its the key Q and it should close.)
+		print("To close the GUI its the key Q and it should close.")
 	end)
 end
 coroutine.wrap(EYWPT_fake_script)()
