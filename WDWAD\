@@ -1,0 +1,940 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local MainFrame = Instance.new("Frame")
+local dollhouse = Instance.new("Frame")
+local PAB = Instance.new("TextButton")
+local dupetools = Instance.new("TextButton")
+local dothis = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local admins = Instance.new("Frame")
+local infyield = Instance.new("TextButton")
+local Shattervast = Instance.new("TextButton")
+local Reviz = Instance.new("TextButton")
+local cmdx = Instance.new("TextButton")
+local randomizer = Instance.new("Frame")
+local infhp = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local ragframe = Instance.new("Frame")
+local vexhub = Instance.new("TextButton")
+local flingspeed = Instance.new("TextButton")
+local invistools = Instance.new("TextButton")
+local explodegui = Instance.new("TextButton")
+local creditframe = Instance.new("Frame")
+local needtoknwo = Instance.new("TextLabel")
+local pt1thanks = Instance.new("TextLabel")
+local pt2thanks = Instance.new("TextLabel")
+local hubclosehelp = Instance.new("TextLabel")
+local f9credits = Instance.new("TextButton")
+local ThingsToKnow = Instance.new("Frame")
+local fawfa = Instance.new("TextLabel")
+local dollhousetitle = Instance.new("Frame")
+local dollhousetitlew = Instance.new("TextLabel")
+local raggdolllengine = Instance.new("Frame")
+local raggdolllenginew = Instance.new("TextLabel")
+local borframe = Instance.new("Frame")
+local randomthings = Instance.new("Frame")
+local randomthingsw = Instance.new("TextLabel")
+local adminssfe = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Games = Instance.new("ScrollingFrame")
+local creditsbutton = Instance.new("TextButton")
+local ragdollbutton = Instance.new("TextButton")
+local adminsbutton = Instance.new("TextButton")
+local dollhousebutton = Instance.new("TextButton")
+local randomerbutton = Instance.new("TextButton")
+local Screen2 = Instance.new("ScreenGui")
+local closingframe = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local dawdwad = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = ScreenGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BorderSizePixel = 2
+MainFrame.Position = UDim2.new(0.185502157, 0, 0.312749028, 0)
+MainFrame.Size = UDim2.new(0, 398, 0, 156)
+
+dollhouse.Name = "dollhouse"
+dollhouse.Parent = MainFrame
+dollhouse.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dollhouse.BorderColor3 = Color3.fromRGB(255, 255, 255)
+dollhouse.BorderSizePixel = 0
+dollhouse.Position = UDim2.new(0.233668342, 0, 0.312652677, 0)
+dollhouse.Size = UDim2.new(0, 305, 0, 107)
+dollhouse.Visible = false
+
+PAB.Name = "PAB"
+PAB.Parent = dollhouse
+PAB.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+PAB.BorderColor3 = Color3.fromRGB(255, 255, 255)
+PAB.Position = UDim2.new(-0.00327868853, 0, 0.00763984956, 0)
+PAB.Size = UDim2.new(0, 152, 0, 49)
+PAB.Font = Enum.Font.SourceSans
+PAB.Text = "Play All Boombox's"
+PAB.TextColor3 = Color3.fromRGB(255, 255, 255)
+PAB.TextSize = 19.000
+
+dupetools.Name = "dupetools"
+dupetools.Parent = dollhouse
+dupetools.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dupetools.BorderColor3 = Color3.fromRGB(255, 255, 255)
+dupetools.Position = UDim2.new(0.514754117, 0, 0.00763984956, 0)
+dupetools.Size = UDim2.new(0, 148, 0, 49)
+dupetools.Font = Enum.Font.SourceSans
+dupetools.Text = "Dupe Tools/Inf Yield"
+dupetools.TextColor3 = Color3.fromRGB(255, 255, 255)
+dupetools.TextSize = 20.000
+
+dothis.Name = "dothis"
+dothis.Parent = dupetools
+dothis.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dothis.BorderColor3 = Color3.fromRGB(255, 255, 255)
+dothis.Position = UDim2.new(-0.709459424, 0, -2.08163261, 0)
+dothis.Size = UDim2.new(0, 200, 0, 50)
+dothis.Visible = false
+dothis.Font = Enum.Font.SourceSans
+dothis.Text = "Do ;dupetools (num) for the dupe.."
+dothis.TextColor3 = Color3.fromRGB(255, 255, 255)
+dothis.TextSize = 15.000
+
+TextButton.Parent = dollhouse
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.514754117, 0, 0.532648981, 0)
+TextButton.Size = UDim2.new(0, 148, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 20.000
+
+TextButton_2.Parent = dollhouse
+TextButton_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(0, 0, 0.532648981, 0)
+TextButton_2.Size = UDim2.new(0, 151, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 20.000
+
+admins.Name = "admins"
+admins.Parent = MainFrame
+admins.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+admins.BorderColor3 = Color3.fromRGB(0, 0, 0)
+admins.BorderSizePixel = 0
+admins.Position = UDim2.new(0.233668372, 0, 0.326594323, 0)
+admins.Size = UDim2.new(0, 307, 0, 105)
+admins.Visible = false
+
+infyield.Name = "infyield"
+infyield.Parent = admins
+infyield.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+infyield.BorderColor3 = Color3.fromRGB(255, 255, 255)
+infyield.Position = UDim2.new(0.00651465775, 0, -0.0285714287, 0)
+infyield.Size = UDim2.new(0, 149, 0, 52)
+infyield.Font = Enum.Font.SourceSans
+infyield.Text = "Inf Yield"
+infyield.TextColor3 = Color3.fromRGB(255, 255, 255)
+infyield.TextSize = 20.000
+
+Shattervast.Name = "Shattervast"
+Shattervast.Parent = admins
+Shattervast.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Shattervast.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Shattervast.Position = UDim2.new(0.514636695, 0, 0.535096407, 0)
+Shattervast.Size = UDim2.new(0, 148, 0, 47)
+Shattervast.Font = Enum.Font.SourceSans
+Shattervast.Text = "Shattervast"
+Shattervast.TextColor3 = Color3.fromRGB(255, 255, 255)
+Shattervast.TextSize = 20.000
+
+Reviz.Name = "Reviz"
+Reviz.Parent = admins
+Reviz.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Reviz.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Reviz.Position = UDim2.new(0.00649328576, 0, 0.535096407, 0)
+Reviz.Size = UDim2.new(0, 149, 0, 48)
+Reviz.Font = Enum.Font.SourceSans
+Reviz.Text = "Reviz"
+Reviz.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reviz.TextSize = 20.000
+Reviz.TextWrapped = true
+
+cmdx.Name = "cmdx"
+cmdx.Parent = admins
+cmdx.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+cmdx.BorderColor3 = Color3.fromRGB(255, 255, 255)
+cmdx.Position = UDim2.new(0.514636695, 0, -0.0285714287, 0)
+cmdx.Size = UDim2.new(0, 148, 0, 52)
+cmdx.Font = Enum.Font.SourceSans
+cmdx.Text = "Cmd X"
+cmdx.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmdx.TextSize = 20.000
+
+randomizer.Name = "randomizer"
+randomizer.Parent = MainFrame
+randomizer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+randomizer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+randomizer.Position = UDim2.new(0.231155783, 0, 0.319123387, 0)
+randomizer.Size = UDim2.new(0, 306, 0, 105)
+randomizer.Visible = false
+
+infhp.Name = "infhp"
+infhp.Parent = randomizer
+infhp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+infhp.BorderColor3 = Color3.fromRGB(255, 255, 255)
+infhp.Position = UDim2.new(-0.00310381711, 0, -0.0105369929, 0)
+infhp.Size = UDim2.new(0, 155, 0, 51)
+infhp.Font = Enum.Font.SourceSans
+infhp.Text = "Inf Health"
+infhp.TextColor3 = Color3.fromRGB(255, 255, 255)
+infhp.TextSize = 20.000
+
+TextButton_3.Parent = randomizer
+TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.529411793, 0, 0, 0)
+TextButton_3.Size = UDim2.new(0, 144, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 20.000
+
+TextButton_4.Parent = randomizer
+TextButton_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.Position = UDim2.new(-0.00326797389, 0, 0.552380979, 0)
+TextButton_4.Size = UDim2.new(0, 155, 0, 48)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextSize = 20.000
+
+TextButton_5.Parent = randomizer
+TextButton_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.Position = UDim2.new(0.529411793, 0, 0.552380979, 0)
+TextButton_5.Size = UDim2.new(0, 144, 0, 47)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.TextSize = 20.000
+
+ragframe.Name = "ragframe"
+ragframe.Parent = MainFrame
+ragframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ragframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ragframe.Position = UDim2.new(0.248743713, 0, 0.306302875, 0)
+ragframe.Size = UDim2.new(0, 299, 0, 108)
+ragframe.Visible = false
+
+vexhub.Name = "vexhub"
+vexhub.Parent = ragframe
+vexhub.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+vexhub.BorderColor3 = Color3.fromRGB(255, 255, 255)
+vexhub.Position = UDim2.new(-0.0303030312, 0, 0, 0)
+vexhub.Size = UDim2.new(0, 150, 0, 50)
+vexhub.Font = Enum.Font.SourceSans
+vexhub.Text = "Vex Hub"
+vexhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+vexhub.TextSize = 20.000
+
+flingspeed.Name = "flingspeed"
+flingspeed.Parent = ragframe
+flingspeed.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+flingspeed.BorderColor3 = Color3.fromRGB(255, 255, 255)
+flingspeed.Position = UDim2.new(0.498316497, 0, 0, 0)
+flingspeed.Size = UDim2.new(0, 149, 0, 50)
+flingspeed.Font = Enum.Font.SourceSans
+flingspeed.Text = "Super Fling/Speed"
+flingspeed.TextColor3 = Color3.fromRGB(255, 255, 255)
+flingspeed.TextSize = 20.000
+
+invistools.Name = "invistools"
+invistools.Parent = ragframe
+invistools.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+invistools.BorderColor3 = Color3.fromRGB(255, 255, 255)
+invistools.Position = UDim2.new(-0.0303030312, 0, 0.536805928, 0)
+invistools.Size = UDim2.new(0, 150, 0, 50)
+invistools.Font = Enum.Font.SourceSans
+invistools.Text = "Invis/Vis Tools"
+invistools.TextColor3 = Color3.fromRGB(255, 255, 255)
+invistools.TextSize = 20.000
+
+explodegui.Name = "explodegui"
+explodegui.Parent = ragframe
+explodegui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+explodegui.BorderColor3 = Color3.fromRGB(255, 255, 255)
+explodegui.Position = UDim2.new(0.498316497, 0, 0.536805928, 0)
+explodegui.Size = UDim2.new(0, 149, 0, 50)
+explodegui.Font = Enum.Font.SourceSans
+explodegui.Text = "Explode Gui"
+explodegui.TextColor3 = Color3.fromRGB(255, 255, 255)
+explodegui.TextSize = 20.000
+
+creditframe.Name = "creditframe"
+creditframe.Parent = MainFrame
+creditframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+creditframe.BorderColor3 = Color3.fromRGB(255, 255, 255)
+creditframe.Position = UDim2.new(0.251256257, 0, 0.306242406, 0)
+creditframe.Size = UDim2.new(0, 297, 0, 107)
+
+needtoknwo.Name = "needtoknwo"
+needtoknwo.Parent = creditframe
+needtoknwo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+needtoknwo.BorderColor3 = Color3.fromRGB(255, 255, 255)
+needtoknwo.Position = UDim2.new(0.161616161, 0, 0.0094339624, 0)
+needtoknwo.Size = UDim2.new(0, 200, 0, 29)
+needtoknwo.Font = Enum.Font.SourceSans
+needtoknwo.Text = "Things to know..."
+needtoknwo.TextColor3 = Color3.fromRGB(255, 255, 255)
+needtoknwo.TextSize = 15.000
+
+pt1thanks.Name = "pt1thanks"
+pt1thanks.Parent = creditframe
+pt1thanks.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pt1thanks.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pt1thanks.Position = UDim2.new(0, 0, 0.349056602, 0)
+pt1thanks.Size = UDim2.new(0, 136, 0, 32)
+pt1thanks.Font = Enum.Font.SourceSans
+pt1thanks.Text = "Big thanks to isak#9010"
+pt1thanks.TextColor3 = Color3.fromRGB(255, 255, 255)
+pt1thanks.TextSize = 15.000
+
+pt2thanks.Name = "pt2thanks"
+pt2thanks.Parent = creditframe
+pt2thanks.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pt2thanks.BorderColor3 = Color3.fromRGB(0, 0, 0)
+pt2thanks.Position = UDim2.new(0.457912445, 0, 0.349056602, 0)
+pt2thanks.Size = UDim2.new(0, 155, 0, 32)
+pt2thanks.Font = Enum.Font.SourceSans
+pt2thanks.Text = "for helping me with this hub.."
+pt2thanks.TextColor3 = Color3.fromRGB(255, 255, 255)
+pt2thanks.TextSize = 15.000
+
+hubclosehelp.Name = "hubclosehelp"
+hubclosehelp.Parent = creditframe
+hubclosehelp.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+hubclosehelp.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hubclosehelp.Position = UDim2.new(-0.0437710434, 0, 0.641597629, 0)
+hubclosehelp.Size = UDim2.new(0, 200, 0, 24)
+hubclosehelp.Font = Enum.Font.SourceSans
+hubclosehelp.Text = "To close the GUI/Hub press Q."
+hubclosehelp.TextColor3 = Color3.fromRGB(255, 255, 255)
+hubclosehelp.TextSize = 15.000
+hubclosehelp.TextWrapped = true
+
+f9credits.Name = "f9credits"
+f9credits.Parent = creditframe
+f9credits.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+f9credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+f9credits.Position = UDim2.new(0.585858583, 0, 0.797654808, 0)
+f9credits.Size = UDim2.new(0, 117, 0, 20)
+f9credits.Font = Enum.Font.SourceSans
+f9credits.Text = "Press this for f9 credits."
+f9credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+f9credits.TextSize = 15.000
+
+ThingsToKnow.Name = "ThingsToKnow"
+ThingsToKnow.Parent = MainFrame
+ThingsToKnow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ThingsToKnow.Size = UDim2.new(0, 100, 0, 100)
+
+fawfa.Name = "fawfa"
+fawfa.Parent = ThingsToKnow
+fawfa.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+fawfa.BorderColor3 = Color3.fromRGB(0, 0, 0)
+fawfa.Position = UDim2.new(1.48161626, 0, 0.053673476, 0)
+fawfa.Size = UDim2.new(0, 200, 0, 35)
+fawfa.Font = Enum.Font.SourceSans
+fawfa.Text = "Things To Know"
+fawfa.TextColor3 = Color3.fromRGB(255, 255, 255)
+fawfa.TextSize = 20.000
+
+dollhousetitle.Name = "dollhousetitle"
+dollhousetitle.Parent = MainFrame
+dollhousetitle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dollhousetitle.Size = UDim2.new(0, 100, 0, 100)
+dollhousetitle.Visible = false
+
+dollhousetitlew.Name = "dollhousetitlew"
+dollhousetitlew.Parent = dollhousetitle
+dollhousetitlew.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dollhousetitlew.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dollhousetitlew.Position = UDim2.new(1.00161612, 0, 0.0400000028, 0)
+dollhousetitlew.Size = UDim2.new(0, 279, 0, 39)
+dollhousetitlew.Font = Enum.Font.SourceSans
+dollhousetitlew.Text = "Dollhouse"
+dollhousetitlew.TextColor3 = Color3.fromRGB(255, 255, 255)
+dollhousetitlew.TextSize = 25.000
+
+raggdolllengine.Name = "raggdolllengine"
+raggdolllengine.Parent = MainFrame
+raggdolllengine.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+raggdolllengine.Size = UDim2.new(0, 100, 0, 100)
+raggdolllengine.Visible = false
+
+raggdolllenginew.Name = "raggdolllenginew"
+raggdolllenginew.Parent = raggdolllengine
+raggdolllenginew.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+raggdolllenginew.BorderColor3 = Color3.fromRGB(0, 0, 0)
+raggdolllenginew.Position = UDim2.new(1.4814142, 0, 0.0320408195, 0)
+raggdolllenginew.Size = UDim2.new(0, 200, 0, 39)
+raggdolllenginew.Font = Enum.Font.SourceSans
+raggdolllenginew.Text = "Ragdoll Engine"
+raggdolllenginew.TextColor3 = Color3.fromRGB(255, 255, 255)
+raggdolllenginew.TextSize = 20.000
+
+borframe.Name = "borframe"
+borframe.Parent = MainFrame
+borframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+borframe.BorderColor3 = Color3.fromRGB(255, 255, 255)
+borframe.Position = UDim2.new(0.251256287, 0, 0.3076922, 0)
+borframe.Size = UDim2.new(0, 298, 0, 0)
+
+randomthings.Name = "randomthings"
+randomthings.Parent = MainFrame
+randomthings.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+randomthings.Size = UDim2.new(0, 100, 0, 100)
+randomthings.Visible = false
+
+randomthingsw.Name = "randomthingsw"
+randomthingsw.Parent = randomthings
+randomthingsw.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+randomthingsw.BorderColor3 = Color3.fromRGB(0, 0, 0)
+randomthingsw.Position = UDim2.new(1.48161626, 0, 0.0216326527, 0)
+randomthingsw.Size = UDim2.new(0, 200, 0, 41)
+randomthingsw.Font = Enum.Font.SourceSans
+randomthingsw.Text = "Randomizer"
+randomthingsw.TextColor3 = Color3.fromRGB(255, 255, 255)
+randomthingsw.TextSize = 20.000
+
+adminssfe.Name = "adminssfe"
+adminssfe.Parent = MainFrame
+adminssfe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+adminssfe.Size = UDim2.new(0, 100, 0, 100)
+adminssfe.Visible = false
+
+TextLabel.Parent = adminssfe
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(1.49000001, 0, 0.0500000007, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 40)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "FE Admins"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+
+Games.Name = "Games"
+Games.Parent = ScreenGui
+Games.Active = true
+Games.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Games.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Games.Position = UDim2.new(0.185502157, 0, 0.312749028, 0)
+Games.Size = UDim2.new(0, 100, 0, 156)
+Games.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Games.ScrollBarThickness = 10
+
+creditsbutton.Name = "creditsbutton"
+creditsbutton.Parent = Games
+creditsbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+creditsbutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+creditsbutton.BorderSizePixel = 2
+creditsbutton.Position = UDim2.new(-0.00999984704, 0, 0.971093237, 0)
+creditsbutton.Size = UDim2.new(0, 92, 0, 36)
+creditsbutton.Font = Enum.Font.SourceSans
+creditsbutton.Text = "Credit's"
+creditsbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+creditsbutton.TextSize = 20.000
+
+ragdollbutton.Name = "ragdollbutton"
+ragdollbutton.Parent = Games
+ragdollbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ragdollbutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ragdollbutton.BorderSizePixel = 2
+ragdollbutton.Position = UDim2.new(0.00999999978, 0, 0.0389995612, 0)
+ragdollbutton.Size = UDim2.new(0, 92, 0, 38)
+ragdollbutton.Font = Enum.Font.SourceSans
+ragdollbutton.Text = "Ragdoll Engine"
+ragdollbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ragdollbutton.TextSize = 15.000
+
+adminsbutton.Name = "adminsbutton"
+adminsbutton.Parent = Games
+adminsbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+adminsbutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+adminsbutton.BorderSizePixel = 2
+adminsbutton.Position = UDim2.new(0.00999999978, 0, 0.0768265128, 0)
+adminsbutton.Size = UDim2.new(0, 91, 0, 37)
+adminsbutton.Font = Enum.Font.SourceSans
+adminsbutton.Text = "FE Admins"
+adminsbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+adminsbutton.TextSize = 15.000
+adminsbutton.TextWrapped = true
+
+dollhousebutton.Name = "dollhousebutton"
+dollhousebutton.Parent = Games
+dollhousebutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+dollhousebutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+dollhousebutton.BorderSizePixel = 2
+dollhousebutton.Position = UDim2.new(-0.0191131588, 0, -0.00219308585, 0)
+dollhousebutton.Size = UDim2.new(0, 92, 0, 42)
+dollhousebutton.Font = Enum.Font.SourceSans
+dollhousebutton.Text = "Dollhouse Roleplay"
+dollhousebutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+dollhousebutton.TextSize = 15.000
+dollhousebutton.TextWrapped = true
+
+randomerbutton.Name = "randomerbutton"
+randomerbutton.Parent = Games
+randomerbutton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+randomerbutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+randomerbutton.Position = UDim2.new(-0.00999999978, 0, 0.117605858, 0)
+randomerbutton.Size = UDim2.new(0, 89, 0, 34)
+randomerbutton.Font = Enum.Font.SourceSans
+randomerbutton.Text = "Randomizer"
+randomerbutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+randomerbutton.TextSize = 15.000
+
+Screen2.Name = "Screen2"
+Screen2.Parent = ScreenGui
+Screen2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+closingframe.Name = "closingframe"
+closingframe.Parent = Screen2
+closingframe.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+closingframe.BorderColor3 = Color3.fromRGB(255, 255, 255)
+closingframe.Position = UDim2.new(0.395320207, 0, 0.408264399, 0)
+closingframe.Size = UDim2.new(0, 157, 0, 66)
+closingframe.Visible = false
+
+TextLabel_2.Parent = closingframe
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Position = UDim2.new(0.0509554148, 0, 0.0606060624, 0)
+TextLabel_2.Size = UDim2.new(0, 142, 0, 28)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Hey, I see you closed the gui."
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 15.000
+
+TextLabel_3.Parent = closingframe
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.Position = UDim2.new(0.0509554148, 0, 0.424242437, 0)
+TextLabel_3.Size = UDim2.new(0, 142, 0, 24)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Well if you wanna open it again"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+TextLabel_4.Parent = closingframe
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.Position = UDim2.new(0.0509554148, 0, 0.787878811, 0)
+TextLabel_4.Size = UDim2.new(0, 142, 0, 12)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Just press \"Q\" and your good"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+dawdwad.Name = "dawdwad"
+dawdwad.Parent = ScreenGui
+dawdwad.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dawdwad.Position = UDim2.new(0.640394092, 0, 0.157370523, 0)
+dawdwad.Size = UDim2.new(0, 200, 0, 50)
+dawdwad.Font = Enum.Font.SourceSans
+dawdwad.Text = "testforclosing"
+dawdwad.TextColor3 = Color3.fromRGB(0, 0, 0)
+dawdwad.TextSize = 14.000
+
+-- Scripts:
+
+local function YZHAPMX_fake_script() -- PAB.LocalScript 
+	local script = Instance.new('LocalScript', PAB)
+
+	PAB.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/lOSTTYY/uuukh/main/play%20all"))()
+	end)
+	
+end
+coroutine.wrap(YZHAPMX_fake_script)()
+local function HQOX_fake_script() -- dupetools.LocalScript 
+	local script = Instance.new('LocalScript', dupetools)
+
+	dupetools.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+	
+	dupetools.MouseButton1Down:connect(function()
+		dothis.Visible = true
+		wait (5)
+		dothis.Visible = false
+	end)
+end
+coroutine.wrap(HQOX_fake_script)()
+local function BGWTQZF_fake_script() -- infyield.LocalScript 
+	local script = Instance.new('LocalScript', infyield)
+
+	infyield.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(BGWTQZF_fake_script)()
+local function YQLS_fake_script() -- Shattervast.LocalScript 
+	local script = Instance.new('LocalScript', Shattervast)
+
+	Shattervast.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/iL4NRDux"))()
+	end)
+end
+coroutine.wrap(YQLS_fake_script)()
+local function LTAY_fake_script() -- Reviz.LocalScript 
+	local script = Instance.new('LocalScript', Reviz)
+
+	Reviz.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/Caniwq2N"))()
+	end)
+end
+coroutine.wrap(LTAY_fake_script)()
+local function HLGK_fake_script() -- cmdx.LocalScript 
+	local script = Instance.new('LocalScript', cmdx)
+
+	cmdx.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end)
+end
+coroutine.wrap(HLGK_fake_script)()
+local function AWBQ_fake_script() -- infhp.LocalScript 
+	local script = Instance.new('LocalScript', infhp)
+
+	infhp.MouseButton1Down:connect(function()
+		while wait() do
+			for i,v in pairs(game.Players.LocalPlayer:GetDescendants()) do
+				if v.Name == "DamageEvent" then
+					v:FireServer(game:GetService("Players").LocalPlayer.Character.Humanoid, -math.huge)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(AWBQ_fake_script)()
+local function TLHF_fake_script() -- vexhub.LocalScript 
+	local script = Instance.new('LocalScript', vexhub)
+
+	vexhub.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/Vex/Script/LOADER.lua"))()
+	end)
+end
+coroutine.wrap(TLHF_fake_script)()
+local function VYSE_fake_script() -- flingspeed.LocalScript 
+	local script = Instance.new('LocalScript', flingspeed)
+
+	flingspeed.MouseButton1Down:connect(function()
+		local lp = game:GetService("Players").LocalPlayer
+	
+		spawn(function()
+			while wait(0.05) do
+				pcall(function()
+					for i, v in pairs(game:GetService("Players"):GetPlayers()) do
+						local PlayerPos = lp.Character.HumanoidRootPart.Position
+						local Range = (PlayerPos - v.Character.HumanoidRootPart.Position).magnitude
+						if v ~= lp and v.Backpack:FindFirstChild("Push") and Range > 100 then
+							v.Backpack.Push.PushEvent:FireServer()
+						end
+					end
+				end)
+			end
+		end)
+	
+		lp.Character.Humanoid.WalkSpeed = 100
+		lp.Character.Humanoid.JumpPower = 100
+	
+		lp.Character["Local Ragdoll"]:Destroy()
+		lp.Character.Controls:Destroy()
+		lp.Character["State Handler"]:Destroy()
+		lp.Character.LocalScript:Destroy()
+	end)
+end
+coroutine.wrap(VYSE_fake_script)()
+local function CMCLZMB_fake_script() -- invistools.LocalScript 
+	local script = Instance.new('LocalScript', invistools)
+
+	invistools.MouseButton1Down:connect(function()
+		a=game.Players:FindFirstChild("OddPotion",true)
+		local Players = game:GetService("Players")
+		local localPlayer = Players.LocalPlayer
+		local backpack = localPlayer:WaitForChild("Backpack")
+	
+		local tool = Instance.new("Tool")
+		tool.RequiresHandle = false
+		tool.Parent = backpack
+		tool.Name = "Invisible Object"
+		tool.Equipped:Connect(function(mouse)
+			mouse.Button1Down:Connect(function()
+				if mouse.Target and mouse.Target.Parent then
+					a.TransEvent:FireServer(mouse.Target,1)
+				end
+			end)
+		end)
+		a=game.Players:FindFirstChild("OddPotion",true)
+		local Players = game:GetService("Players")
+		local localPlayer = Players.LocalPlayer
+		local backpack = localPlayer:WaitForChild("Backpack")
+	
+		local tool = Instance.new("Tool")
+		tool.RequiresHandle = false
+		tool.Parent = backpack
+		tool.Name = "Visible Object"
+		tool.Equipped:Connect(function(mouse)
+			mouse.Button1Down:Connect(function()
+				if mouse.Target and mouse.Target.Parent then
+					a.TransEvent:FireServer(mouse.Target,0)
+				end
+			end)
+		end)
+	end)
+end
+coroutine.wrap(CMCLZMB_fake_script)()
+local function IQMDOZ_fake_script() -- explodegui.LocalScript 
+	local script = Instance.new('LocalScript', explodegui)
+
+	explodegui.MouseButton1Down:connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/TrillWasHere/Projects/main/Ragdoll-Explode'),true))()
+	end)
+	
+end
+coroutine.wrap(IQMDOZ_fake_script)()
+local function EYWPT_fake_script() -- f9credits.LocalScript 
+	local script = Instance.new('LocalScript', f9credits)
+
+	f9credits.MouseButton1Down:connect(function()
+		print("DM Losttyy#4001 if you need anything such as help or if you want to suggest something for me to add...")
+		print("Biggest thank's to isak#9010 for helping me with scripting and making this hub")
+		print("To close the GUI its the key Q and it should close.)
+	end)
+end
+coroutine.wrap(EYWPT_fake_script)()
+local function ULND_fake_script() -- creditsbutton.creditscript 
+	local script = Instance.new('LocalScript', creditsbutton)
+
+	creditsbutton.MouseButton1Down:connect(function()
+		if admins.Visible == true then
+			creditframe.Visible = true
+			admins.Visible = false
+			wait (.01)
+		else
+			if dollhouse.Visible == true then
+				creditframe.Visible = true
+				dollhouse.Visible = false
+				wait (.01)
+			else
+				if randomizer.Visible == true then
+					creditframe.Visible = true
+					randomizer.Visible = false
+					wait (.01)
+				else
+					if ragframe.Visible == true then
+						creditframe.Visible = true
+						ragframe.Visible = false
+					end
+				end
+			end
+		end
+	end)
+	
+	creditsbutton.MouseButton1Down:connect(function()
+		ThingsToKnow.Visible = true
+		raggdolllengine.Visible = false
+		randomthings.Visible = false
+		adminssfe.Visible = false
+		dollhousetitle.Visible = false
+	end)
+	
+end
+coroutine.wrap(ULND_fake_script)()
+local function OQBYOHA_fake_script() -- ragdollbutton.LocalScript 
+	local script = Instance.new('LocalScript', ragdollbutton)
+
+	ragdollbutton.MouseButton1Down:connect(function()
+		if admins.Visible == true then
+			ragframe.Visible = true
+			admins.Visible = false
+			wait (.01)
+		else
+			if creditframe.Visible == true then
+				ragframe.Visible = true
+				creditframe.Visible = false
+				wait (.01)
+			else
+				if randomizer.Visible == true then
+					ragframe.Visible = true
+					randomizer.Visible = false
+					wait (.01)
+				else
+					if dollhouse.Visible == true then
+						ragframe.Visible = true
+						dollhouse.Visible = false
+					end
+				end
+			end
+		end
+	end)
+	
+	ragdollbutton.MouseButton1Down:connect(function()
+		raggdolllengine.Visible = true
+		dollhousetitle.Visible = false
+		ThingsToKnow.Visible = false
+		randomthings.Visible = false
+		adminssfe.Visible = false
+	end)
+end
+coroutine.wrap(OQBYOHA_fake_script)()
+local function VACZ_fake_script() -- adminsbutton.af 
+	local script = Instance.new('LocalScript', adminsbutton)
+
+	adminsbutton.MouseButton1Down:connect(function()
+		if creditframe.Visible == true then
+			admins.Visible = true
+			creditframe.Visible = false
+			wait (.01)
+		else
+			if dollhouse.Visible == true then
+				admins.Visible = true
+				dollhouse.Visible = false
+				wait (.01)
+			else
+				if randomizer.Visible == true then
+					admins.Visible = true
+					randomizer.Visible = false
+					wait (.01)
+				else
+					if ragframe.Visible == true then
+						admins.Visible = true
+						ragframe.Visible = false
+					end
+				end
+			end
+		end
+	end)
+	
+	adminsbutton.MouseButton1Down:connect(function()
+		adminssfe.Visible = true
+		randomthings.Visible = false
+		raggdolllengine.Visible = false
+		dollhousetitle.Visible = false
+		ThingsToKnow.Visible = false
+	end)
+	
+end
+coroutine.wrap(VACZ_fake_script)()
+local function SRUT_fake_script() -- dollhousebutton.dh 
+	local script = Instance.new('LocalScript', dollhousebutton)
+
+	dollhousebutton.MouseButton1Down:connect(function()
+		if admins.Visible == true then
+			dollhouse.Visible = true
+			admins.Visible = false
+			wait (.01)
+		else
+			if creditframe.Visible == true then
+				dollhouse.Visible = true
+				creditframe.Visible = false
+				wait (.01)
+			else
+				if randomizer.Visible == true then
+					dollhouse.Visible = true
+					randomizer.Visible = false
+					wait (.01)
+				else
+					if ragframe.Visible == true then
+						dollhouse.Visible = true
+						ragframe.Visible = false
+					end
+				end
+			end
+		end
+	end)
+	
+	dollhousebutton.MouseButton1Down:connect(function()
+		dollhousetitle.Visible = true
+		ThingsToKnow.Visible = false
+		raggdolllengine.Visible = false
+		randomthings.Visible = false
+		adminssfe.Visible = false
+	end)
+end
+coroutine.wrap(SRUT_fake_script)()
+local function PCRHBXT_fake_script() -- randomerbutton.LocalScript 
+	local script = Instance.new('LocalScript', randomerbutton)
+
+	randomerbutton.MouseButton1Down:connect(function()
+		if admins.Visible == true then
+			randomizer.Visible = true
+			admins.Visible = false
+			wait (.01)
+		else
+			if creditframe.Visible == true then
+				randomizer.Visible = true
+				creditframe.Visible = false
+				wait (.01)
+			else
+				if dollhouse.Visible == true then
+					randomizer.Visible = true
+					dollhouse.Visible = false
+				else
+					if ragframe.Visible == true then
+						randomizer.Visible = true
+						ragframe.Visible = false
+					end
+				end
+			end
+		end
+	end)
+	
+	randomerbutton.MouseButton1Down:connect(function()
+		randomthings.Visible = true
+		adminssfe.Visible = false
+		raggdolllengine.Visible = false
+		dollhousetitle.Visible = false
+		ThingsToKnow.Visible = false
+	end)
+	
+end
+coroutine.wrap(PCRHBXT_fake_script)()
+local function LOVBMW_fake_script() -- ScreenGui.keyclose 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	game:GetService("UserInputService").InputEnded:connect(function( inputObject, gameProcessedEvent ) --KEY CLOSE/OPEN
+		if (inputObject.UserInputType == Enum.UserInputType.Keyboard and inputObject.KeyCode == Enum.KeyCode.Q) then
+			if ScreenGui.Enabled == true then
+				ScreenGui.Enabled = false
+				wait(.01)
+				closingframe.Visible = true
+				wait(1)
+				closingframe.Visible = false
+			else
+				ScreenGui.Enabled = true
+			end
+		end
+	end)
+end
+coroutine.wrap(LOVBMW_fake_script)()
+local function JEJRMC_fake_script() -- dawdwad.LocalScript 
+	local script = Instance.new('LocalScript', dawdwad)
+
+	dawdwad.MouseButton1Down:connect(function()
+		ScreenGui.Enabled = false
+	end)
+	
+end
+coroutine.wrap(JEJRMC_fake_script)()
